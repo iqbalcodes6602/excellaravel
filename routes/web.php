@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 Route::get('/', 'ExcelController@index');
 
-Route::post('/import', 'ExcelController@importData');
+// Route::post('/import', 'ExcelController@importData');
 
-Route::get('/export', 'ExcelController@exportData');
+// Route::get('/export', 'ExcelController@exportData');
